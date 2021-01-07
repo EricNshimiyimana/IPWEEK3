@@ -79,6 +79,8 @@ h1, h2, h3, h4, h5 {
 textarea.form-control {
   height: inherit; }
 
+
+
 .site-hero {
   background-size: cover;
   height: 100vh;
@@ -182,7 +184,10 @@ textarea.form-control {
     -o-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
-    
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out; }
   .site-menu-toggle span:nth-child(1) {
     top: 0px; }
   .site-menu-toggle span:nth-child(2) {
@@ -1182,6 +1187,7 @@ textarea.form-control {
   text-align: center;
   border-radius: 50px;
 }
+
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
